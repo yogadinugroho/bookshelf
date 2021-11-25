@@ -11,6 +11,8 @@ function isStorageExist(){
     return true;
 }
 
+// menambahkan fungsi save data
+
 function saveData() {
     const parsed = JSON.stringify(rakBuku);
     localStorage.setItem(STORAGE_KEY, parsed);
